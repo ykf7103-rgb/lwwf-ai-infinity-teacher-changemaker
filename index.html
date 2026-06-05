@@ -9,6 +9,12 @@
 
 .project-photo-grid{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:12px;align-items:stretch}.project-photo-grid:not(.featured){grid-template-columns:repeat(6,minmax(0,1fr))}.project-photo-card{overflow:hidden;border:1px solid rgba(255,248,232,.22);border-radius:var(--r);background:rgba(255,248,232,.1);display:grid;grid-template-rows:124px 1fr;min-height:252px;box-shadow:0 14px 34px rgba(0,0,0,.12)}.slide:not(.dark):not(.indigo) .project-photo-card{border-color:var(--line);background:rgba(255,255,255,.83);box-shadow:0 12px 30px rgba(24,33,29,.08)}.project-photo-card img{width:100%;height:124px;object-fit:cover;display:block}.project-photo-card div{padding:11px;display:grid;gap:7px;align-content:start}.project-photo-card b{color:var(--amber);font-size:20px;line-height:1;font-weight:950}.slide:not(.dark):not(.indigo) .project-photo-card b{color:var(--gold)}.project-photo-card strong{font-size:15px;line-height:1.18;font-weight:950}.project-photo-card span{color:rgba(255,248,232,.76);font-size:12px;line-height:1.38}.slide:not(.dark):not(.indigo) .project-photo-card span{color:var(--sub)}.strategy-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:16px}.strategy-card{overflow:hidden;border:1px solid rgba(255,248,232,.24);border-radius:var(--r);background:rgba(255,248,232,.09);display:grid;grid-template-rows:168px 1fr;min-height:344px}.strategy-card img{width:100%;height:168px;object-fit:cover;display:block}.strategy-card div{padding:18px;display:grid;gap:10px;align-content:start}.strategy-card strong{font-size:23px;line-height:1.18;color:var(--amber);font-weight:950}.strategy-card span{font-size:16px;line-height:1.48;color:rgba(255,248,232,.78)}@media(max-width:1120px){.project-photo-grid,.project-photo-grid:not(.featured){grid-template-columns:repeat(3,minmax(0,1fr))}.project-photo-card{min-height:232px}.strategy-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:900px){.project-photo-grid,.project-photo-grid:not(.featured),.strategy-grid{grid-template-columns:1fr}.project-photo-card{grid-template-rows:auto 1fr;min-height:auto}.project-photo-card img{height:auto;aspect-ratio:16/9}.strategy-card{grid-template-rows:auto 1fr;min-height:auto}.strategy-card img{height:auto;aspect-ratio:16/9}}
 
+.news-grid{display:grid;grid-template-columns:1fr 1fr;gap:22px;align-items:stretch}.news-card{display:grid;grid-template-rows:280px auto;min-height:430px;border:1px solid var(--line);border-radius:var(--r);background:rgba(255,255,255,.86);box-shadow:var(--shadow);overflow:hidden}.news-image{height:280px;background:#fff;display:flex;align-items:center;justify-content:center;border-bottom:1px solid var(--line)}.news-image img{width:100%;height:100%;object-fit:cover;object-position:center top;display:block;background:#fff}.news-card div:last-child{display:grid;gap:7px;padding:15px 18px}.news-card strong{font-size:20px;line-height:1.2;color:var(--jade2);font-weight:950}.news-card p{font-size:16px;line-height:1.42;color:var(--ink);font-weight:650}.news-card span{font-size:12px;line-height:1.35;color:var(--sub);font-weight:800}.core-metrics{display:grid;grid-template-columns:1fr;gap:12px}.core-metrics .metric{min-height:132px}
+@media(max-width:900px){.news-grid{grid-template-columns:1fr}.news-card{grid-template-rows:auto auto;min-height:auto}.news-image{height:auto;min-height:0}.news-image img{height:auto;max-height:none;object-fit:contain}.core-metrics{grid-template-columns:1fr}.core-metrics .metric{min-height:auto}}
+
+.evidence .stage{gap:18px}.evidence .photo-strip{grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}.evidence .photo-strip .media:first-child{grid-row:auto}.evidence .photo-strip .media:first-child .photo{height:auto;aspect-ratio:16/10}.evidence .photo{aspect-ratio:16/10}.evidence figcaption{font-size:13px;line-height:1.35}
+@media(max-width:900px){.evidence .photo-strip{grid-template-columns:1fr}.evidence .photo,.evidence .photo-strip .media:first-child .photo{aspect-ratio:16/10}}
+
 @media(max-width:900px){.controls{top:0;bottom:auto;height:58px;border-top:0;border-bottom:1px solid var(--line)}.slide,.slide.active{padding-top:142px}.brand{top:76px}}
 </style>
 </head>
@@ -25,12 +31,34 @@
     </section>
 
 
+    <section class="slide " data-title="兩則新聞">
+      <div class="brand"><img src="assets/lwwf-logo.png" alt="樂善堂梁黃蕙芳紀念學校校徽"><span>樂善堂梁黃蕙芳紀念學校</span></div>
+      <div class="stage">
+        <p class="eyebrow build">外部脈絡：AI 正在改變社會，也正在改變學校</p>
+        <h2>新聞問的是同一件事：學生未來需要甚麼能力，學校如何及早回應？</h2>
+        <div class="news-grid"><article class="news-card build"><div class="news-image"><img src="assets/photos/news_ai_future_skills_focus.jpg" alt="AI 不會取代你，但更擅長用 AI 的人會取代你"></div><div><strong>AI 不會取代你，但更擅長用 AI 的人會取代你</strong><p>社會焦點已由「會否使用 AI」轉向「能否善用 AI 創造價值」。</p><span>HKET 理財名人堂截圖，原用於 AI INFINITY HTML 開首。</span></div></article><article class="news-card build"><div class="news-image"><img src="assets/photos/news_direct_admission_focus.jpg" alt="小學引入 Vibe Coding，學生兩三個月完成 AI 作品"></div><div><strong>小學引入 Vibe Coding，學生兩三個月完成 AI 作品</strong><p>校本實踐已被外界看見：學生可以用真實產品展示學習成果。</p><span>香港01 教育報道截圖，原用於 AI INFINITY HTML 開首。</span></div></article></div>
+      </div>
+      <aside class="speaker-note">先用兩則新聞建立外部脈絡：AI 改變工作，也使學校需要更早培養創造、判斷和表達能力。</aside>
+    </section>
+
+
+    <section class="slide dark evidence" data-title="梁校真實行動">
+      <div class="brand"><img src="assets/lwwf-logo.png" alt="樂善堂梁黃蕙芳紀念學校校徽"><span>樂善堂梁黃蕙芳紀念學校</span></div>
+      <div class="stage">
+        <p class="eyebrow build">我們不是講工具，而是讓學生做出看得見的發明</p>
+        <h2>由成果展、投票系統到學生發明，AI INFINITY 已經在校園真實運作。</h2>
+        <div class="photo-strip build"><figure class="media "><div class="photo"><img src="assets/photos/wide_exhibition.jpg" alt="成果展禮堂全景"></div><figcaption>2026 年 4 月 23 日成果展：全校參與。</figcaption></figure><figure class="media "><div class="photo"><img src="assets/photos/principal_vote.jpg" alt="校長使用 AI INFINITY ID 卡投票"></div><figcaption>校長親身掃描校本 ID 卡參與投票。</figcaption></figure><figure class="media "><div class="photo"><img src="assets/photos/corner_guardian_award.jpg" alt="轉角守護者冠軍組"></div><figcaption>學生以科技回應街角盲區與輪椅使用者需要。</figcaption></figure><figure class="media "><div class="photo"><img src="assets/photos/plant_guardian_award.jpg" alt="AI 植物守護神亞軍組"></div><figcaption>學生把感測、AI 與植物照顧整合。</figcaption></figure></div>
+      </div>
+      <aside class="speaker-note">這頁馬上讓聽眾看到真實學生、真實場景和真實發明，不再停留在理念。</aside>
+    </section>
+
+
     <section class="slide " data-title="主線">
       <div class="brand"><img src="assets/lwwf-logo.png" alt="樂善堂梁黃蕙芳紀念學校校徽"><span>樂善堂梁黃蕙芳紀念學校</span></div>
       <div class="stage">
         <p class="eyebrow build">核心命題</p>
         <h2>AI 教育的重點，不是多用一個工具，而是重建一套讓學生持續創造的學習系統。</h2>
-        <div class="grid-3"><div class="metric  build"><span class="num">01</span><h3>由傳授到設計</h3><p class="muted">教師由安排內容，轉為設計任務、情境、回饋和展示機會。</p></div><div class="metric gold build"><span class="num">02</span><h3>由工具到系統</h3><p class="muted">AI INFINITY 支援課堂、展覽、身份和數據。</p></div><div class="metric coral build"><span class="num">03</span><h3>由完成到創變</h3><p class="muted">學生面向真實對象，做出有用、有溫度的發明。</p></div></div>
+        <div class="grid-2"><div class="core-metrics"><div class="metric  build"><span class="num">01</span><h3>由傳授到設計</h3><p class="muted">教師由安排內容，轉為設計任務、情境、回饋和展示機會。</p></div><div class="metric gold build"><span class="num">02</span><h3>由工具到系統</h3><p class="muted">AI INFINITY 支援課堂、展覽、身份和數據。</p></div><div class="metric coral build"><span class="num">03</span><h3>由完成到創變</h3><p class="muted">學生面向真實對象，做出有用、有溫度的發明。</p></div></div><div class="grid-2 build"><figure class="media "><div class="photo"><img src="assets/photos/student_booth.jpg" alt="學生於攤位介紹發明品"></div><figcaption>學生向同學介紹自己的發明。</figcaption></figure><figure class="media contain"><div class="photo"><img src="assets/photos/voting_dashboard.png" alt="AI INFINITY 實時投票後台"></div><figcaption>校本投票及數據回饋系統。</figcaption></figure></div></div>
       </div>
       <aside class="speaker-note">把整個匯報從工具介紹拉回教育理念：設計、系統、創變。</aside>
     </section>
@@ -52,7 +80,7 @@
       <div class="stage">
         <p class="eyebrow build">由教學者走向創變者</p>
         <h2>教師專業的改變，出現在學生做產品的每一個決策位。</h2>
-        <div class="grid-2"><div><p class="lead build">教師不再只是解釋知識，而是把學生帶到真實問題、真實對象和真實回饋之前。</p></div><div class="split-list build"><p><b>以前</b><span>以課本、技巧、完成度為主要焦點。</span></p><p><b>現在</b><span>以問題定義、用戶需要、原型測試和展示回饋為學習主線。</span></p><p><b>專業核心</b><span>判斷科技是否公平、有用、有溫度，並把它轉化成可學習的任務。</span></p></div></div>
+        <div class="grid-2"><div><p class="lead build">教師不再只是解釋知識，而是把學生帶到真實問題、真實對象和真實回饋之前。</p><div class="split-list build"><p><b>以前</b><span>以課本、技巧、完成度為主要焦點。</span></p><p><b>現在</b><span>以問題定義、用戶需要、原型測試和展示回饋為學習主線。</span></p><p><b>專業核心</b><span>判斷科技是否公平、有用、有溫度，並把它轉化成可學習的任務。</span></p></div></div><figure class="media build"><div class="photo"><img src="assets/photos/teacher_guidance.jpg" alt="教師引導學生回應提問"></div><figcaption>教師把學生帶到真實觀眾、真實問題與真實回饋之前。</figcaption></figure></div>
       </div>
       <aside class="speaker-note">這頁講教師價值，而不是講工具。</aside>
     </section>
@@ -269,7 +297,7 @@
   </main>
   <div class="controls" aria-label="簡報控制">
     <div class="progress-track" aria-hidden="true"><div class="progress-fill" id="progressFill"></div></div>
-    <div class="pager" id="pager">01 / 23</div>
+    <div class="pager" id="pager">01 / 25</div>
     <div class="nav">
       <button type="button" id="prevBtn" aria-label="上一個">‹</button>
       <button type="button" id="nextBtn" aria-label="下一個">›</button>
