@@ -1,0 +1,334 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>從成果展到學習身份 | AI INFINITY 校本創新實踐</title>
+  <style>
+:root{--ink:#18211d;--sub:#54615a;--paper:#fbf6ec;--jade:#136f63;--jade2:#0f4d49;--indigo:#243b6b;--gold:#c99a2e;--amber:#e7c15b;--coral:#c85f4c;--sky:#2d79a6;--line:rgba(24,33,29,.16);--soft:rgba(255,255,255,.78);--shadow:0 22px 55px rgba(24,33,29,.16);--r:8px;--max:1180px}*{box-sizing:border-box}html,body{margin:0;min-height:100%;background:var(--paper);color:var(--ink);font-family:"Microsoft JhengHei","PingFang TC","Noto Sans TC",system-ui,sans-serif;letter-spacing:0}body{overflow:hidden}.deck{position:relative;width:100vw;height:100dvh;background:var(--paper)}.slide{position:absolute;inset:0;display:none;padding:58px 66px 74px;overflow:hidden;background:linear-gradient(115deg,rgba(201,154,46,.12),transparent 34%),linear-gradient(180deg,#fffaf0,var(--paper))}.slide.active{display:grid;animation:slideIn .28s ease-out both}@keyframes slideIn{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:translateY(0)}}.dark{color:#fff8e8;background:linear-gradient(125deg,rgba(231,193,91,.18),transparent 44%),linear-gradient(180deg,#183932,#102c2f)}.indigo{color:#fff8e8;background:linear-gradient(125deg,rgba(232,193,91,.14),transparent 44%),linear-gradient(180deg,#253c6f,#17213c)}.photo-hero{isolation:isolate;color:#fff8e8;background:#102c2f}.photo-hero:before{content:"";position:absolute;inset:0;z-index:-2;background-image:var(--hero-image);background-size:cover;background-position:center;transform:scale(1.03);animation:photoDrift 18s ease-in-out infinite alternate}.photo-hero:after{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(90deg,rgba(15,45,42,.88),rgba(15,45,42,.58) 46%,rgba(15,45,42,.22)),linear-gradient(0deg,rgba(15,45,42,.58),transparent 46%)}@keyframes photoDrift{from{transform:scale(1.03) translateX(0)}to{transform:scale(1.08) translateX(-12px)}}.brand{position:absolute;left:34px;top:24px;z-index:10;display:flex;align-items:center;gap:12px;font-weight:900;font-size:14px;color:inherit}.brand img{width:42px;height:42px;object-fit:contain;filter:drop-shadow(0 4px 10px rgba(0,0,0,.12))}.stage{width:min(var(--max),100%);margin:auto;align-self:center;display:grid;gap:26px}.eyebrow{margin:0;color:var(--jade);font-size:15px;line-height:1.35;font-weight:900}.dark .eyebrow,.indigo .eyebrow,.photo-hero .eyebrow{color:var(--amber)}h1,h2,h3,p{margin:0}h1{max-width:940px;font-size:64px;line-height:1.05;font-weight:950}h2{max-width:1040px;font-size:48px;line-height:1.12;font-weight:950}h3{font-size:24px;line-height:1.22;font-weight:900}.lead{max-width:900px;color:#394941;font-size:25px;line-height:1.58;font-weight:650}.dark .lead,.indigo .lead,.photo-hero .lead{color:rgba(255,248,232,.84)}.muted{color:var(--sub);font-size:18px;line-height:1.55}.dark .muted,.indigo .muted{color:rgba(255,248,232,.74)}.grid-2{display:grid;grid-template-columns:1.03fr .97fr;gap:30px;align-items:center}.grid-3{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.grid-4{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}.panel,.metric,.project,.quote,.timeline-step{border:1px solid var(--line);border-radius:var(--r);background:var(--soft);box-shadow:0 12px 30px rgba(24,33,29,.08)}.dark .panel,.dark .metric,.dark .project,.dark .quote,.dark .timeline-step,.indigo .panel,.indigo .metric,.indigo .project,.indigo .quote,.indigo .timeline-step{background:rgba(255,248,232,.09);border-color:rgba(255,248,232,.22);box-shadow:none}.panel{padding:24px}.metric{min-height:154px;padding:22px;display:grid;gap:12px;align-content:start;border-top:5px solid var(--jade)}.metric.gold{border-top-color:var(--gold)}.metric.coral{border-top-color:var(--coral)}.num{font-size:44px;line-height:1;font-weight:950;color:var(--jade2);font-variant-numeric:tabular-nums}.dark .num,.indigo .num{color:var(--amber)}.media{display:grid;gap:10px;margin:0}.photo{width:100%;aspect-ratio:16/10;border-radius:var(--r);overflow:hidden;border:1px solid rgba(24,33,29,.15);background:#efe6d6;box-shadow:var(--shadow)}.photo img{width:100%;height:100%;display:block;object-fit:cover}.media.contain .photo img,.photo.contain img{object-fit:contain;background:#fff}figcaption{color:var(--sub);font-size:14px;line-height:1.45}.dark figcaption,.indigo figcaption{color:rgba(255,248,232,.68)}.tag-row{display:flex;flex-wrap:wrap;gap:10px}.tag{display:inline-flex;align-items:center;min-height:32px;padding:6px 12px;border-radius:999px;border:1px solid rgba(19,111,99,.35);background:rgba(19,111,99,.1);color:var(--jade2);font-size:14px;font-weight:900}.dark .tag,.indigo .tag,.photo-hero .tag{color:#fff8e8;border-color:rgba(231,193,91,.38);background:rgba(231,193,91,.13)}.photo-strip{display:grid;grid-template-columns:1.5fr 1fr 1fr;gap:14px;align-items:stretch}.photo-strip .media:first-child{grid-row:span 2}.photo-strip .media:first-child .photo{height:100%;aspect-ratio:auto}.timeline{display:grid;grid-template-columns:repeat(6,1fr);gap:12px}.timeline-step{min-height:142px;padding:18px 14px;display:grid;gap:8px;align-content:start;border-top:5px solid var(--gold)}.timeline-step:nth-child(2){border-top-color:var(--jade)}.timeline-step:nth-child(3){border-top-color:var(--coral)}.timeline-step:nth-child(4){border-top-color:var(--sky)}.timeline-step:nth-child(5){border-top-color:var(--indigo)}.project-grid{display:grid;grid-template-columns:repeat(13,minmax(78px,1fr));gap:8px}.project-mini{min-height:180px;padding:12px 9px;border-radius:var(--r);color:#fff8e8;background:#1f5f54;display:grid;align-content:start;gap:9px;border:1px solid rgba(255,255,255,.16)}.project-mini:nth-child(3n+2){background:#284a75}.project-mini:nth-child(3n){background:#8a4f3f}.project-mini b{display:block;font-size:22px;color:var(--amber);line-height:1}.project-mini strong{font-size:15px;line-height:1.22}.project-mini span{font-size:12px;line-height:1.38;color:rgba(255,248,232,.76)}.project{overflow:hidden;display:grid;grid-template-rows:118px 1fr;min-height:232px}.project img{width:100%;height:118px;object-fit:cover;display:block}.project div{padding:14px;display:grid;gap:7px}.project strong{font-size:18px;line-height:1.22}.project span{color:var(--sub);font-size:14px;line-height:1.42}.dark .project span,.indigo .project span{color:rgba(255,248,232,.7)}.screen-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}.screen-card{border:1px solid var(--line);border-radius:var(--r);overflow:hidden;background:#fff;display:grid;grid-template-rows:auto 1fr;min-height:220px}.screen-card img{width:100%;height:118px;object-fit:cover;display:block;border-bottom:1px solid var(--line)}.screen-card div{padding:12px;display:grid;gap:6px}.screen-card strong{font-size:16px;line-height:1.2}.screen-card span{color:var(--sub);font-size:13px;line-height:1.38}.split-list{display:grid;gap:12px}.split-list p{display:grid;grid-template-columns:122px 1fr;gap:14px;padding:14px 16px;border:1px solid var(--line);border-radius:var(--r);background:rgba(255,255,255,.72);line-height:1.48}.split-list b{color:var(--jade2)}.dark .split-list b,.indigo .split-list b{color:var(--amber)}.dark .split-list p,.indigo .split-list p{background:rgba(255,248,232,.08);border-color:rgba(255,248,232,.2)}.quote{padding:30px 34px;border-left:8px solid var(--gold);font-size:29px;line-height:1.45;font-weight:900;color:var(--jade2)}.dark .quote,.indigo .quote{color:#fff8e8}.source-note{color:var(--sub);font-size:13px;line-height:1.45}.dark .source-note,.indigo .source-note{color:rgba(255,248,232,.62)}.build{opacity:0;transform:translateY(18px) scale(.985);filter:blur(3px);pointer-events:none}.build.revealed{opacity:1;transform:translateY(0) scale(1);filter:blur(0);pointer-events:auto;transition:opacity .36s ease,transform .36s cubic-bezier(.2,.86,.24,1.18),filter .36s ease}.slide.active .build.revealed{animation:popIn .42s cubic-bezier(.2,.86,.24,1.18) both}@keyframes popIn{from{opacity:0;transform:translateY(20px) scale(.96);filter:blur(4px)}70%{transform:translateY(-2px) scale(1.01)}to{opacity:1;transform:translateY(0) scale(1);filter:blur(0)}}.controls{position:fixed;left:0;right:0;bottom:0;z-index:40;height:54px;display:grid;grid-template-columns:1fr auto auto;align-items:center;gap:14px;padding:0 26px;background:rgba(251,246,236,.94);border-top:1px solid var(--line);backdrop-filter:blur(10px)}.progress-track{height:6px;border-radius:999px;background:rgba(24,33,29,.12);overflow:hidden}.progress-fill{width:0;height:100%;background:linear-gradient(90deg,var(--jade),var(--gold),var(--coral));transition:width .24s ease}.pager{min-width:88px;text-align:center;color:var(--ink);font-weight:950;font-variant-numeric:tabular-nums}.nav{display:flex;gap:8px}.nav button{width:38px;height:38px;border:1px solid rgba(24,33,29,.22);border-radius:var(--r);background:#fff;color:var(--jade2);font-size:23px;line-height:1;font-weight:900;cursor:pointer}.nav button:focus-visible{outline:3px solid var(--gold);outline-offset:2px}.speaker-note{display:none}body.notes-open .speaker-note{position:fixed;right:18px;bottom:70px;z-index:60;display:block;width:min(540px,calc(100vw - 36px));max-height:245px;overflow:auto;padding:16px 18px;border:1px solid var(--line);border-radius:var(--r);background:rgba(255,255,255,.97);color:var(--ink);box-shadow:var(--shadow);font-size:15px;line-height:1.58}@media(max-width:1120px){.project-grid{grid-template-columns:repeat(7,1fr)}}@media(max-width:900px){body{overflow:auto}.deck{height:auto;min-height:100dvh}.slide,.slide.active{position:static;min-height:100dvh;padding:82px 22px 88px;overflow:visible}.brand{left:22px;top:18px}h1{font-size:38px}h2{font-size:32px}h3{font-size:21px}.lead{font-size:20px}.grid-2,.grid-3,.grid-4,.photo-strip,.timeline,.screen-grid{grid-template-columns:1fr}.project-grid{grid-template-columns:1fr 1fr}.project-mini{min-height:132px}.controls{grid-template-columns:1fr auto auto;height:58px;padding:0 14px;gap:8px}.pager{min-width:76px}.split-list p{grid-template-columns:1fr;gap:6px}.photo-strip .media:first-child{grid-row:auto}.photo-strip .media:first-child .photo{height:auto;aspect-ratio:16/10}}@media print{body{overflow:visible}.deck{height:auto}.slide{display:grid!important;position:relative;min-height:100vh;page-break-after:always}.build{opacity:1!important;transform:none!important;filter:none!important}.controls{display:none}}
+
+.project-photo-grid{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:12px;align-items:stretch}.project-photo-grid:not(.featured){grid-template-columns:repeat(6,minmax(0,1fr))}.project-photo-card{overflow:hidden;border:1px solid rgba(255,248,232,.22);border-radius:var(--r);background:rgba(255,248,232,.1);display:grid;grid-template-rows:124px 1fr;min-height:252px;box-shadow:0 14px 34px rgba(0,0,0,.12)}.slide:not(.dark):not(.indigo) .project-photo-card{border-color:var(--line);background:rgba(255,255,255,.83);box-shadow:0 12px 30px rgba(24,33,29,.08)}.project-photo-card img{width:100%;height:124px;object-fit:cover;display:block}.project-photo-card div{padding:11px;display:grid;gap:7px;align-content:start}.project-photo-card b{color:var(--amber);font-size:20px;line-height:1;font-weight:950}.slide:not(.dark):not(.indigo) .project-photo-card b{color:var(--gold)}.project-photo-card strong{font-size:15px;line-height:1.18;font-weight:950}.project-photo-card span{color:rgba(255,248,232,.76);font-size:12px;line-height:1.38}.slide:not(.dark):not(.indigo) .project-photo-card span{color:var(--sub)}.strategy-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:16px}.strategy-card{overflow:hidden;border:1px solid rgba(255,248,232,.24);border-radius:var(--r);background:rgba(255,248,232,.09);display:grid;grid-template-rows:168px 1fr;min-height:344px}.strategy-card img{width:100%;height:168px;object-fit:cover;display:block}.strategy-card div{padding:18px;display:grid;gap:10px;align-content:start}.strategy-card strong{font-size:23px;line-height:1.18;color:var(--amber);font-weight:950}.strategy-card span{font-size:16px;line-height:1.48;color:rgba(255,248,232,.78)}@media(max-width:1120px){.project-photo-grid,.project-photo-grid:not(.featured){grid-template-columns:repeat(3,minmax(0,1fr))}.project-photo-card{min-height:232px}.strategy-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:900px){.project-photo-grid,.project-photo-grid:not(.featured),.strategy-grid{grid-template-columns:1fr}.project-photo-card{grid-template-rows:auto 1fr;min-height:auto}.project-photo-card img{height:auto;aspect-ratio:16/9}.strategy-card{grid-template-rows:auto 1fr;min-height:auto}.strategy-card img{height:auto;aspect-ratio:16/9}}
+
+@media(max-width:900px){.controls{top:0;bottom:auto;height:58px;border-top:0;border-bottom:1px solid var(--line)}.slide,.slide.active{padding-top:142px}.brand{top:76px}}
+</style>
+</head>
+<body>
+  <main class="deck" id="deck">
+    <section class="slide photo-hero" data-title="封面" style="--hero-image:url('assets/photos/hero_showcase.jpg')">
+      <div class="brand"><img src="assets/lwwf-logo.png" alt="樂善堂梁黃蕙芳紀念學校校徽"><span>樂善堂梁黃蕙芳紀念學校</span></div>
+      <div class="stage">
+        <p class="eyebrow build">二十一世紀教育論壇 2026｜創新實踐案例分享</p>
+        <h1>從成果展到學習身份：AI INFINITY 的校本創新實踐</h1>
+        <p class="lead build">以「賽馬會成長機地．啟發潛能發明班」為起點，展示學生如何由 AI 使用者，走向有同理心的產品架構師。</p><div class="tag-row build"><span class="tag">10 分鐘匯報</span><span class="tag">真實學生項目</span><span class="tag">校本 ID 卡</span><span class="tag">教師專業重構</span></div>
+      </div>
+      <aside class="speaker-note">開場定調：這不是工具展示，而是學校如何把成果展轉化為學生身份、課程設計和教師專業轉型。</aside>
+    </section>
+
+
+    <section class="slide " data-title="主線">
+      <div class="brand"><img src="assets/lwwf-logo.png" alt="樂善堂梁黃蕙芳紀念學校校徽"><span>樂善堂梁黃蕙芳紀念學校</span></div>
+      <div class="stage">
+        <p class="eyebrow build">核心命題</p>
+        <h2>AI 教育的重點，不是多用一個工具，而是重建一套讓學生持續創造的學習系統。</h2>
+        <div class="grid-3"><div class="metric  build"><span class="num">01</span><h3>由傳授到設計</h3><p class="muted">教師由安排內容，轉為設計任務、情境、回饋和展示機會。</p></div><div class="metric gold build"><span class="num">02</span><h3>由工具到系統</h3><p class="muted">AI INFINITY 支援課堂、展覽、身份和數據。</p></div><div class="metric coral build"><span class="num">03</span><h3>由完成到創變</h3><p class="muted">學生面向真實對象，做出有用、有溫度的發明。</p></div></div>
+      </div>
+      <aside class="speaker-note">把整個匯報從工具介紹拉回教育理念：設計、系統、創變。</aside>
+    </section>
+
+
+    <section class="slide indigo" data-title="論壇對應">
+      <div class="brand"><img src="assets/lwwf-logo.png" alt="樂善堂梁黃蕙芳紀念學校校徽"><span>樂善堂梁黃蕙芳紀念學校</span></div>
+      <div class="stage">
+        <p class="eyebrow build">對應論壇議題：AI 時代的認知重塑</p>
+        <h2>我們回應的不是「如何加入 AI」，而是「如何讓學生重新理解學習、設計與社會責任」。</h2>
+        <div class="grid-3"><div class="panel build"><h3>背景</h3><p class="muted">生成式 AI 進入校園，傳統電腦科不足以回應學生需要，學校將方向轉為 STEAM 與跨科 AI。</p></div><div class="panel build"><h3>行動</h3><p class="muted">學生由真實問題出發，結合 Vibe Coding、AI 平台、感測器和圖像生成，完成可展示作品。</p></div><div class="panel build"><h3>反思</h3><p class="muted">價值不在工具數量，而在學生學會觀察、提問、修正，教師亦轉為學習設計者。</p></div></div><p class="source-note build">資料來源：投稿文章《從成果展到學習身份：AI INFINITY 的校本創新實踐》。</p>
+      </div>
+      <aside class="speaker-note">直接連接論壇格式，讓聽眾看到案例結構清楚。</aside>
+    </section>
+
+
+    <section class="slide " data-title="教師角色">
+      <div class="brand"><img src="assets/lwwf-logo.png" alt="樂善堂梁黃蕙芳紀念學校校徽"><span>樂善堂梁黃蕙芳紀念學校</span></div>
+      <div class="stage">
+        <p class="eyebrow build">由教學者走向創變者</p>
+        <h2>教師專業的改變，出現在學生做產品的每一個決策位。</h2>
+        <div class="grid-2"><div><p class="lead build">教師不再只是解釋知識，而是把學生帶到真實問題、真實對象和真實回饋之前。</p></div><div class="split-list build"><p><b>以前</b><span>以課本、技巧、完成度為主要焦點。</span></p><p><b>現在</b><span>以問題定義、用戶需要、原型測試和展示回饋為學習主線。</span></p><p><b>專業核心</b><span>判斷科技是否公平、有用、有溫度，並把它轉化成可學習的任務。</span></p></div></div>
+      </div>
+      <aside class="speaker-note">這頁講教師價值，而不是講工具。</aside>
+    </section>
+
+
+    <section class="slide " data-title="成果展現場">
+      <div class="brand"><img src="assets/lwwf-logo.png" alt="樂善堂梁黃蕙芳紀念學校校徽"><span>樂善堂梁黃蕙芳紀念學校</span></div>
+      <div class="stage">
+        <p class="eyebrow build">2026 年 4 月 23 日：全校參與的創科現場</p>
+        <h2>九隊小學生發明家，在禮堂把想法變成可以被同學、校長與嘉賓檢視的作品。</h2>
+        <div class="photo-strip build"><figure class="media "><div class="photo"><img src="assets/photos/wide_exhibition.jpg" alt="成果分享展禮堂全景"></div><figcaption>成果展現場：學生、老師與嘉賓即場交流。</figcaption></figure><figure class="media "><div class="photo"><img src="assets/photos/student_booth.jpg" alt="學生於攤位介紹發明品"></div><figcaption>學生在攤位示範發明品。</figcaption></figure><figure class="media "><div class="photo"><img src="assets/photos/active_booths.jpg" alt="同學參與攤位介紹"></div><figcaption>同學主動聆聽其他組別介紹。</figcaption></figure><figure class="media "><div class="photo"><img src="assets/photos/project_explain.jpg" alt="學生示範轉角守護者"></div><figcaption>作品不是模型，而是解決生活痛點的原型。</figcaption></figure></div>
+      </div>
+      <aside class="speaker-note">先放現場感，讓聽眾知道這是真實學生展示。</aside>
+    </section>
+
+
+    <section class="slide dark" data-title="ID 卡系統">
+      <div class="brand"><img src="assets/lwwf-logo.png" alt="樂善堂梁黃蕙芳紀念學校校徽"><span>樂善堂梁黃蕙芳紀念學校</span></div>
+      <div class="stage">
+        <p class="eyebrow build">把成果展變成學習身份</p>
+        <h2>一張卡，連接學生身份、即時投票、學習數據與未來成長紀錄。</h2>
+        <div class="grid-2"><div><div class="split-list build"><p><b>公平參與</b><span>每位學生掃描個人卡片投票，每人三票，避免重複投同一組。</span></p><p><b>即時回饋</b><span>排行榜與後台數據即時更新，展示學生興趣和參與情況。</span></p><p><b>可延伸</b><span>未來可連接閱讀、運動、藝術、默書、才藝匯演和獎勵兌換。</span></p></div></div><div class="grid-2 build"><figure class="media contain"><div class="photo"><img src="assets/photos/id_cards.jpg" alt="AI INFINITY 校本 ID 卡"></div><figcaption>教師版與學生版 AI INFINITY ID 卡。</figcaption></figure><figure class="media contain"><div class="photo"><img src="assets/photos/voting_dashboard.png" alt="實時投票系統畫面"></div><figcaption>學校團隊以 Vibe Coding 建構的投票後台。</figcaption></figure></div></div>
+      </div>
+      <aside class="speaker-note">整個案例的核心發明：不是外購 App，而是校本系統。</aside>
+    </section>
+
+
+    <section class="slide " data-title="AI INFINITY 藍圖">
+      <div class="brand"><img src="assets/lwwf-logo.png" alt="樂善堂梁黃蕙芳紀念學校校徽"><span>樂善堂梁黃蕙芳紀念學校</span></div>
+      <div class="stage">
+        <p class="eyebrow build">四大支柱，由活動走向課程</p>
+        <h2>AI INFINITY 把不同科目、校本活動與學生興趣，整理成可延伸的學習藍圖。</h2>
+        <div class="grid-4"><article class="project build"><img src="assets/photos/ai_garden.jpg" alt="AI Garden"><div><strong>AI Garden</strong><span>自然、生命、感測器與環境照顧。</span></div></article><article class="project build"><img src="assets/photos/sport_activity.jpg" alt="AI Sport"><div><strong>AI Sport</strong><span>體育、動作數據、健康與挑戰。</span></div></article><article class="project build"><img src="assets/photos/english_ai.jpg" alt="AI English"><div><strong>AI English</strong><span>語言輸入、口語練習與即時回饋。</span></div></article><article class="project build"><img src="assets/photos/steam_activity.jpg" alt="AI Lab"><div><strong>AI Lab</strong><span>發明、編程、原型與跨科創作。</span></div></article></div>
+      </div>
+      <aside class="speaker-note">四大支柱要講成校本課程架構，不是口號。</aside>
+    </section>
+
+
+    <section class="slide indigo" data-title="13 個項目（一）">
+      <div class="brand"><img src="assets/lwwf-logo.png" alt="樂善堂梁黃蕙芳紀念學校校徽"><span>樂善堂梁黃蕙芳紀念學校</span></div>
+      <div class="stage">
+        <p class="eyebrow build">學生發明與成果展原型</p>
+        <h2>先由成果展看見：學生如何把生活問題變成可展示的產品。</h2>
+        <div class="project-photo-grid featured"><article class="project-photo-card build"><img src="assets/photos/id_cards.jpg" alt="AI INFINITY ID 卡"><div><b>01</b><strong>AI INFINITY ID 卡</strong><span>把身份、投票、獎勵與成長紀錄連成校本系統。</span></div></article><article class="project-photo-card build"><img src="assets/photos/corner_guardian_award.jpg" alt="轉角守護者"><div><b>02</b><strong>轉角守護者</strong><span>以感測器回應長者及輪椅使用者的街角盲區風險。</span></div></article><article class="project-photo-card build"><img src="assets/photos/plant_guardian_award.jpg" alt="AI 植物守護神"><div><b>03</b><strong>AI 植物守護神</strong><span>把 Micro:bit 感測、植物需要與 App 提示整合。</span></div></article><article class="project-photo-card build"><img src="assets/photos/cultural_fitting_award.jpg" alt="AI 中華文化試身室"><div><b>04</b><strong>AI 中華文化試身室</strong><span>以民族服飾、語音文化與生成影像推動文化學習。</span></div></article><article class="project-photo-card build"><img src="assets/photos/future_park_vote.jpg" alt="未來公園"><div><b>05</b><strong>未來公園</strong><span>由社區遊樂場觀察出發，設計更理想的成長空間。</span></div></article><article class="project-photo-card build"><img src="assets/photos/reading_child.jpg" alt="智能圖書推廣 App"><div><b>06</b><strong>智能圖書推廣 App</strong><span>以 AI 書單及讀後感追問，連接閱讀與表達。</span></div></article><article class="project-photo-card build"><img src="assets/photos/math_comic.jpg" alt="數學漫畫變身器"><div><b>07</b><strong>數學漫畫變身器</strong><span>把抽象數學題轉成四格漫畫，支援理解與表達。</span></div></article></div>
+      </div>
+      <aside class="speaker-note">第一組項目聚焦成果展與學生發明，所有卡片都用相片支撐。</aside>
+    </section>
+
+
+    <section class="slide " data-title="13 個項目（二）">
+      <div class="brand"><img src="assets/lwwf-logo.png" alt="樂善堂梁黃蕙芳紀念學校校徽"><span>樂善堂梁黃蕙芳紀念學校</span></div>
+      <div class="stage">
+        <p class="eyebrow build">校本平台與跨科 AI 項目</p>
+        <h2>同一套創新能力，已延伸到中文、英文、普通話、體育和學生歷程。</h2>
+        <div class="project-photo-grid "><article class="project-photo-card build"><img src="assets/photos/long_chinese_battle.jpg" alt="AI 成語攻防戰"><div><b>08</b><strong>AI 成語攻防戰</strong><span>把中文文化、遊戲化任務與互動學習結合。</span></div></article><article class="project-photo-card build"><img src="assets/photos/long_national_treasure.jpg" alt="AI 國寶守衛戰"><div><b>09</b><strong>AI 國寶守衛戰</strong><span>由國民身份認同延伸至保育、文化與互動 App。</span></div></article><article class="project-photo-card build"><img src="assets/photos/long_english_reading.jpg" alt="P1 English Quest"><div><b>10</b><strong>P1 English Quest</strong><span>低小英語任務化，強化聆聽、閱讀與口語回饋。</span></div></article><article class="project-photo-card build"><img src="assets/photos/long_ai_dictation.jpg" alt="普通話發音站"><div><b>11</b><strong>普通話發音站</strong><span>讓朗讀、聲韻與句子練習有即時回饋。</span></div></article><article class="project-photo-card build"><img src="assets/photos/long_ai_sport.jpg" alt="AI 飛球設計師"><div><b>12</b><strong>AI 飛球設計師</strong><span>結合體育、設計思維、數據與 STEAM 創作。</span></div></article><article class="project-photo-card build"><img src="assets/photos/long_card_collection.jpg" alt="AI 學習護照"><div><b>13</b><strong>AI 學習護照</strong><span>整合多科網站與學習歷程，支援六年成長追蹤。</span></div></article></div>
+      </div>
+      <aside class="speaker-note">第二組項目連接 AI 發展組全年工作與多科網站矩陣。</aside>
+    </section>
+
+
+    <section class="slide dark" data-title="未來教育藍圖">
+      <div class="brand"><img src="assets/lwwf-logo.png" alt="樂善堂梁黃蕙芳紀念學校校徽"><span>樂善堂梁黃蕙芳紀念學校</span></div>
+      <div class="stage">
+        <p class="eyebrow build">AI 發展組 2025-26：四大關注</p>
+        <h2>13 個項目不是散點，而是由未來教育藍圖推動的校本系統。</h2>
+        <div class="strategy-grid"><article class="strategy-card build"><img src="assets/photos/long_card_collection.jpg" alt="自主學習"><div><strong>自主學習</strong><span>以 Teams 編程班、多科 AI 任務和學習護照，讓學生自主選擇路徑。</span></div></article><article class="strategy-card build"><img src="assets/photos/long_workshop_audience.jpg" alt="教師抗逆"><div><strong>教師抗逆</strong><span>以 STEAM 發明計劃與共同備課，讓教師面對 AI 改變時有方法、有同伴。</span></div></article><article class="strategy-card build"><img src="assets/photos/long_eco_class.jpg" alt="學生深化"><div><strong>學生深化</strong><span>以 AI 蝴蝶園、瑤山鱷蜥與 STEAM@Eco，深化科學探究與保育行動。</span></div></article><article class="strategy-card build"><img src="assets/photos/long_ai_workshop_poster.jpg" alt="教師培訓"><div><strong>教師培訓</strong><span>以教師 AI 工作坊與資源協作平台，把個人嘗試轉成校本能力。</span></div></article></div>
+      </div>
+      <aside class="speaker-note">這頁回答這些項目從哪裡來：AI 發展組四大關注與未來教育藍圖。</aside>
+    </section>
+
+
+    <section class="slide " data-title="產品方法">
+      <div class="brand"><img src="assets/lwwf-logo.png" alt="樂善堂梁黃蕙芳紀念學校校徽"><span>樂善堂梁黃蕙芳紀念學校</span></div>
+      <div class="stage">
+        <p class="eyebrow build">學生不再只是完成作品</p>
+        <h2>我們把「做專題」轉成一個小型產品開發流程。</h2>
+        <div class="timeline"><div class="timeline-step build"><h3>觀察</h3><p class="muted">從社區、課堂、校園生活找痛點。</p></div><div class="timeline-step build"><h3>訪問</h3><p class="muted">聆聽長者、同學、家長和使用者。</p></div><div class="timeline-step build"><h3>設計</h3><p class="muted">畫流程、定功能、拆任務。</p></div><div class="timeline-step build"><h3>建構</h3><p class="muted">以 AI、感測器、App 和網頁做原型。</p></div><div class="timeline-step build"><h3>展示</h3><p class="muted">在成果展接受真實使用與提問。</p></div><div class="timeline-step build"><h3>修正</h3><p class="muted">根據投票、回饋和數據再設計。</p></div></div>
+      </div>
+      <aside class="speaker-note">把散點項目整理成可複製方法。</aside>
+    </section>
+
+
+    <section class="slide " data-title="轉角守護者">
+      <div class="brand"><img src="assets/lwwf-logo.png" alt="樂善堂梁黃蕙芳紀念學校校徽"><span>樂善堂梁黃蕙芳紀念學校</span></div>
+      <div class="stage">
+        <p class="eyebrow build">冠軍：轉角守護者</p>
+        <h2>最有力量的科技，往往來自最具體的生活痛點。</h2>
+        <div class="grid-2"><div><div class="split-list build"><p><b>問題</b><span>學生聆聽輪椅使用者在街角盲區遇到的危險。</span></p><p><b>原型</b><span>以超聲波感測與提示器模擬智能防撞提醒。</span></p><p><b>價值</b><span>把同理心轉化為可被測試、可被展示的安全方案。</span></p></div></div><div class="grid-2 build"><figure class="media "><div class="photo"><img src="assets/photos/corner_guardian_award.jpg" alt="轉角守護者得獎合照"></div><figcaption>冠軍組別《轉角守護者》。</figcaption></figure><figure class="media "><div class="photo"><img src="assets/photos/project_explain.jpg" alt="學生示範轉角守護者"></div><figcaption>學生於攤位手持平板示範設計概念。</figcaption></figure></div></div>
+      </div>
+      <aside class="speaker-note">這個例子最能扣住科技向善。</aside>
+    </section>
+
+
+    <section class="slide " data-title="植物守護神">
+      <div class="brand"><img src="assets/lwwf-logo.png" alt="樂善堂梁黃蕙芳紀念學校校徽"><span>樂善堂梁黃蕙芳紀念學校</span></div>
+      <div class="stage">
+        <p class="eyebrow build">亞軍：AI 植物守護神</p>
+        <h2>學生把植物照顧，設計成一套能感知、會表達、可行動的系統。</h2>
+        <div class="grid-2"><figure class="media build"><div class="photo"><img src="assets/photos/plant_guardian_award.jpg" alt="AI 植物守護神得獎合照"></div><figcaption>亞軍組別《AI 植物守護神》。</figcaption></figure><div class="grid-3"><div class="metric  build"><span class="num">IoT</span><h3>感測</h3><p class="muted">土壤濕度、溫度、光線等資料成為判斷依據。</p></div><div class="metric gold build"><span class="num">AI</span><h3>理解</h3><p class="muted">把數據轉化成學生能理解的植物需要。</p></div><div class="metric coral build"><span class="num">App</span><h3>行動</h3><p class="muted">用互動介面提醒澆水、光照和保護植物。</p></div></div></div>
+      </div>
+      <aside class="speaker-note">突顯自然科、數據、編程和照顧生命。</aside>
+    </section>
+
+
+    <section class="slide dark" data-title="文化試身室">
+      <div class="brand"><img src="assets/lwwf-logo.png" alt="樂善堂梁黃蕙芳紀念學校校徽"><span>樂善堂梁黃蕙芳紀念學校</span></div>
+      <div class="stage">
+        <p class="eyebrow build">季軍：AI 中華文化試身室</p>
+        <h2>AI 不是取代文化學習，而是讓學生用新的方式走進文化。</h2>
+        <div class="grid-2"><div><div class="split-list build"><p><b>文化內容</b><span>六大民族服飾、問候語與文化背景。</span></p><p><b>生成應用</b><span>串接 Gemini 生成民族服飾虛擬試穿打卡照。</span></p><p><b>外部肯定</b><span>曾於香港中文大學 Local Pitching Day 獲評審高度評價。</span></p></div></div><div class="grid-2 build"><figure class="media "><div class="photo"><img src="assets/photos/cultural_fitting_award.jpg" alt="AI 中華文化試身室得獎合照"></div><figcaption>季軍組別《AI 中華文化試身室》。</figcaption></figure><figure class="media "><div class="photo"><img src="assets/photos/dr_cultural.jpg" alt="嘉賓試用 AI 中華文化試身室"></div><figcaption>嘉賓到訪試用學生作品。</figcaption></figure></div></div>
+      </div>
+      <aside class="speaker-note">講文化身份、語言與生成影像如何結合。</aside>
+    </section>
+
+
+    <section class="slide " data-title="更多發明">
+      <div class="brand"><img src="assets/lwwf-logo.png" alt="樂善堂梁黃蕙芳紀念學校校徽"><span>樂善堂梁黃蕙芳紀念學校</span></div>
+      <div class="stage">
+        <p class="eyebrow build">不同組別，不同需要</p>
+        <h2>成果展的價值，是讓不同學生都能把自己的關心轉成作品。</h2>
+        <div class="grid-4"><article class="project build"><img src="assets/photos/future_park_vote.jpg" alt="未來公園"><div><strong>未來公園</strong><span>從社區遊樂場觀察，設計更理想的兒童成長空間。</span></div></article><article class="project build"><img src="assets/photos/reading_child.jpg" alt="智能圖書推廣 App"><div><strong>智能圖書推廣 App</strong><span>以 AI 推薦書單，並用對話追問讀後感。</span></div></article><article class="project build"><img src="assets/photos/math_comic.jpg" alt="數學漫畫變身器"><div><strong>數學漫畫變身器</strong><span>把分數除法等抽象題目轉化為四格漫畫。</span></div></article><article class="project build"><img src="assets/photos/active_booths.jpg" alt="人際與情緒攤位"><div><strong>人際與情緒攤位</strong><span>以創意推動社交技巧與情緒健康。</span></div></article></div>
+      </div>
+      <aside class="speaker-note">呈現多元發明，不只前三名。</aside>
+    </section>
+
+
+    <section class="slide " data-title="網站矩陣">
+      <div class="brand"><img src="assets/lwwf-logo.png" alt="樂善堂梁黃蕙芳紀念學校校徽"><span>樂善堂梁黃蕙芳紀念學校</span></div>
+      <div class="stage">
+        <p class="eyebrow build">多科網站與 AI 學習平台</p>
+        <h2>同一套設計能力，已延伸到英文、普通話、數學、中文、文化與 STEAM 網站。</h2>
+        <div class="screen-grid build"><article class="screen-card"><img src="assets/screens/ai-infinity.png" alt="AI INFINITY 入口"><div><strong>AI INFINITY 入口</strong><span>整合校本 AI 學習與多科入口。</span></div></article><article class="screen-card"><img src="assets/screens/english.png" alt="P1 English Quest"><div><strong>P1 English Quest</strong><span>低小英語任務、聆聽、說話與回饋。</span></div></article><article class="screen-card"><img src="assets/screens/pth.png" alt="普通話發音站"><div><strong>普通話發音站</strong><span>朗讀、聲韻與句子練習。</span></div></article><article class="screen-card"><img src="assets/screens/math-ai-local.png" alt="數學 AI 學習網"><div><strong>數學 AI 學習網</strong><span>NotebookLM、Podcast、互動頁與本地化教材。</span></div></article><article class="screen-card"><img src="assets/screens/cultural-fitting.png" alt="中華文化試身室"><div><strong>中華文化試身室</strong><span>文化、服飾、語音與生成影像。</span></div></article><article class="screen-card"><img src="assets/screens/picture-book-local.png" alt="AI 繪本故事"><div><strong>AI 繪本故事</strong><span>繪本、閱讀與 PDF 輸出。</span></div></article><article class="screen-card"><img src="assets/screens/ai-ball.png" alt="AI 飛球設計師"><div><strong>AI 飛球設計師</strong><span>STEAM 球類創作與設計思維。</span></div></article><article class="screen-card"><img src="assets/screens/future-career.png" alt="未來職業規劃"><div><strong>未來職業規劃</strong><span>學生興趣、能力與未來探索。</span></div></article></div>
+      </div>
+      <aside class="speaker-note">展示今年 AI 發展組的可見成果。</aside>
+    </section>
+
+
+    <section class="slide " data-title="幼小宣傳">
+      <div class="brand"><img src="assets/lwwf-logo.png" alt="樂善堂梁黃蕙芳紀念學校校徽"><span>樂善堂梁黃蕙芳紀念學校</span></div>
+      <div class="stage">
+        <p class="eyebrow build">看見天賦，自選未來</p>
+        <h2>AI INFINITY 也成為向幼稚園家長說明學校特色的共同語言。</h2>
+        <div class="grid-2"><div><p class="lead build">家長看到的不是一個網站，而是一條由小一開始發現興趣、建立自信、選擇方向的成長路線。</p><div class="tag-row build"><span class="tag">幼小銜接</span><span class="tag">能力探索</span><span class="tag">家長理解</span><span class="tag">跨科選擇</span></div></div><div class="grid-2 build"><figure class="media "><div class="photo"><img src="assets/photos/ai_infinity_group.jpg" alt="幼小宣傳團隊合照"></div><figcaption>幼小宣傳及 AI INFINITY 介紹既有實照。</figcaption></figure><figure class="media "><div class="photo"><img src="assets/photos/ai_workshop_poster.jpg" alt="AI 工作坊宣傳圖"></div><figcaption>AI Workshop 與家長溝通素材。</figcaption></figure></div></div>
+      </div>
+      <aside class="speaker-note">把之前幼小宣傳素材放入這次匯報。</aside>
+    </section>
+
+
+    <section class="slide " data-title="課堂延伸">
+      <div class="brand"><img src="assets/lwwf-logo.png" alt="樂善堂梁黃蕙芳紀念學校校徽"><span>樂善堂梁黃蕙芳紀念學校</span></div>
+      <div class="stage">
+        <p class="eyebrow build">不是一次性成果展</p>
+        <h2>當學生知道每個科目都可以創作，AI 就由工具變成學習文化。</h2>
+        <div class="grid-4"><article class="project build"><img src="assets/photos/english_project.jpg" alt="英文"><div><strong>英文</strong><span>AI 任務、口語練習與情境輸入。</span></div></article><article class="project build"><img src="assets/photos/chinese_project.jpg" alt="中文"><div><strong>中文</strong><span>文化、成語、閱讀與互動遊戲。</span></div></article><article class="project build"><img src="assets/photos/science_id.jpg" alt="科學"><div><strong>科學</strong><span>觀察、感測、數據與校本身份連結。</span></div></article><article class="project build"><img src="assets/photos/visual_arts.jpg" alt="視藝"><div><strong>視藝</strong><span>學生作品、AI 輔助創作與展示。</span></div></article></div>
+      </div>
+      <aside class="speaker-note">用真圖支撐多科整合。</aside>
+    </section>
+
+
+    <section class="slide dark" data-title="教師循環">
+      <div class="brand"><img src="assets/lwwf-logo.png" alt="樂善堂梁黃蕙芳紀念學校校徽"><span>樂善堂梁黃蕙芳紀念學校</span></div>
+      <div class="stage">
+        <p class="eyebrow build">教師的專業，不是退後，而是更精準地介入</p>
+        <h2>教師在每一輪設計中，協助學生把想法變成可被驗證的作品。</h2>
+        <div class="grid-2"><figure class="media build"><div class="photo"><img src="assets/photos/teacher_guidance.jpg" alt="教師指導學生展示作品"></div><figcaption>教師在成果展現場即時引導學生回應提問。</figcaption></figure><div class="split-list build"><p><b>設計任務</b><span>把課程目標轉成學生能完成、能展示的挑戰。</span></p><p><b>管理風險</b><span>處理資料、影像、AI 產出、版權和倫理判斷。</span></p><p><b>建立回饋</b><span>利用現場提問、投票數據和作品展示推動再設計。</span></p></div></div>
+      </div>
+      <aside class="speaker-note">AI 時代教師不是被取代，而是需要更高層次的設計和判斷。</aside>
+    </section>
+
+
+    <section class="slide " data-title="學生能力">
+      <div class="brand"><img src="assets/lwwf-logo.png" alt="樂善堂梁黃蕙芳紀念學校校徽"><span>樂善堂梁黃蕙芳紀念學校</span></div>
+      <div class="stage">
+        <p class="eyebrow build">由使用者變成產品架構師</p>
+        <h2>學生學到的，不只是「會用 AI」，而是如何判斷、設計和改善。</h2>
+        <div class="grid-2"><div class="grid-3"><div class="metric  build"><span class="num">問</span><h3>提問</h3><p class="muted">把模糊感受變成清楚問題。</p></div><div class="metric gold build"><span class="num">做</span><h3>建構</h3><p class="muted">把構想拆成功能、資料和介面。</p></div><div class="metric coral build"><span class="num">改</span><h3>修正</h3><p class="muted">根據真實回饋改良作品。</p></div></div><figure class="media build"><div class="photo"><img src="assets/photos/visitor_feedback.jpg" alt="嘉賓與學生交流"></div><figcaption>學生直接面對嘉賓與同學提問，學習以證據說明自己的設計。</figcaption></figure></div>
+      </div>
+      <aside class="speaker-note">點出高階思維：提問、建構、修正。</aside>
+    </section>
+
+
+    <section class="slide " data-title="外部肯定">
+      <div class="brand"><img src="assets/lwwf-logo.png" alt="樂善堂梁黃蕙芳紀念學校校徽"><span>樂善堂梁黃蕙芳紀念學校</span></div>
+      <div class="stage">
+        <p class="eyebrow build">由校內展示走向公開舞台</p>
+        <h2>學生作品和校本 AI 實踐，已逐步連接全港、國際和社區創變舞台。</h2>
+        <div class="grid-4"><article class="project build"><img src="assets/photos/award_idiom.jpg" alt="全港季軍"><div><strong>全港季軍</strong><span>國民身份認同應用程式設計比賽。</span></div></article><article class="project build"><img src="assets/photos/coolthink_award.jpg" alt="最佳編程技能獎"><div><strong>最佳編程技能獎</strong><span>賽馬會運算思維教育 CoolThink@JC 2025。</span></div></article><article class="project build"><img src="assets/photos/workshop_vibe.jpg" alt="Vibe Coding"><div><strong>Vibe Coding</strong><span>自然語言協作編程進入學生作品流程。</span></div></article><article class="project build"><img src="assets/photos/flagship_lizard.jpg" alt="國際展示"><div><strong>國際展示</strong><span>AI 國寶守衛戰等作品連接更大舞台。</span></div></article></div>
+      </div>
+      <aside class="speaker-note">建立可信度，無需逐項細讀。</aside>
+    </section>
+
+
+    <section class="slide indigo" data-title="下一步">
+      <div class="brand"><img src="assets/lwwf-logo.png" alt="樂善堂梁黃蕙芳紀念學校校徽"><span>樂善堂梁黃蕙芳紀念學校</span></div>
+      <div class="stage">
+        <p class="eyebrow build">由活動變成持續學習身份</p>
+        <h2>AI INFINITY ID 卡，可以陪伴學生由一年級走到六年級。</h2>
+        <div class="grid-2"><figure class="media build"><div class="photo"><img src="assets/photos/closing_students.jpg" alt="學生與展示板合照"></div><figcaption>學生由一次展示走向長期學習歷程。</figcaption></figure><div class="split-list build"><p><b>閱讀</b><span>閱讀打卡、書單推薦、讀後感對話。</span></p><p><b>運動</b><span>運動會、體能挑戰、健康任務。</span></p><p><b>藝術</b><span>作品展示、才藝匯演、創作歷程。</span></p><p><b>成長</b><span>跨科任務、獎勵兌換、學生成長數據分析。</span></p></div></div>
+      </div>
+      <aside class="speaker-note">把未來講成身份系統，不是多做幾個活動。</aside>
+    </section>
+
+
+    <section class="slide photo-hero" data-title="收束" style="--hero-image:url('assets/photos/principal_vote.jpg')">
+      <div class="brand"><img src="assets/lwwf-logo.png" alt="樂善堂梁黃蕙芳紀念學校校徽"><span>樂善堂梁黃蕙芳紀念學校</span></div>
+      <div class="stage">
+        <p class="eyebrow build">教師專業的重構</p>
+        <h2>未來最重要的，不是學生懂不懂操作 AI，而是他們能否用 AI 服務人、理解人、改善真實世界。</h2>
+        <div class="quote build">我們希望培養的，不是 AI 競賽選手，而是有同理心、有判斷力、能創造真實價值的小小 Changemaker。</div><div class="tag-row build"><span class="tag">觀察真問題</span><span class="tag">設計真產品</span><span class="tag">接受真回饋</span><span class="tag">形成真成長</span></div>
+      </div>
+      <aside class="speaker-note">結尾回到人本：AI 服務社會、教師設計學習、學生創造價值。</aside>
+    </section>
+
+  </main>
+  <div class="controls" aria-label="簡報控制">
+    <div class="progress-track" aria-hidden="true"><div class="progress-fill" id="progressFill"></div></div>
+    <div class="pager" id="pager">01 / 23</div>
+    <div class="nav">
+      <button type="button" id="prevBtn" aria-label="上一個">‹</button>
+      <button type="button" id="nextBtn" aria-label="下一個">›</button>
+    </div>
+  </div>
+  <script>
+const slides=[...document.querySelectorAll('.slide')];
+const pager=document.getElementById('pager');
+const fill=document.getElementById('progressFill');
+let index=0;
+const pad=n=>String(n).padStart(2,'0');
+const builds=s=>[...s.querySelectorAll('.build')];
+function clearBuilds(s){
+  builds(s).forEach(x=>{
+    x.classList.remove('revealed');
+    x.style.transitionDelay='0ms';
+    x.style.animationDelay='0ms';
+  });
+}
+function revealBuilds(s){
+  const bs=builds(s);
+  bs.forEach((x,i)=>{
+    const delay=i*105;
+    x.style.transitionDelay=`${delay}ms`;
+    x.style.animationDelay=`${delay}ms`;
+  });
+  requestAnimationFrame(()=>bs.forEach(x=>x.classList.add('revealed')));
+}
+function updateUi(){
+  fill.style.width=`${((index+1)/slides.length)*100}%`;
+  pager.textContent=`${pad(index+1)} / ${pad(slides.length)}`;
+  document.title=`${slides[index].dataset.title||'簡報'} | AI INFINITY 校本創新實踐`;
+  const h=`#${index+1}`;
+  if(location.hash!==h)history.replaceState(null,'',h);
+}
+function show(i){
+  index=Math.max(0,Math.min(slides.length-1,i));
+  slides.forEach((s,j)=>{
+    s.classList.toggle('active',j===index);
+    clearBuilds(s);
+  });
+  updateUi();
+  setTimeout(()=>revealBuilds(slides[index]),80);
+}
+function next(){if(index<slides.length-1)show(index+1)}
+function prev(){if(index>0)show(index-1)}
+function fromHash(){const n=parseInt(location.hash.replace('#',''),10);return Number.isFinite(n)?n-1:0}
+document.getElementById('nextBtn').addEventListener('click',next);
+document.getElementById('prevBtn').addEventListener('click',prev);
+document.getElementById('deck').addEventListener('click',e=>{if(!e.target.closest('button'))next()});
+addEventListener('keydown',e=>{
+  if(['ArrowRight','PageDown',' '].includes(e.key)){e.preventDefault();next()}
+  if(['ArrowLeft','PageUp'].includes(e.key)){e.preventDefault();prev()}
+  if(e.key==='Home'){e.preventDefault();show(0)}
+  if(e.key==='End'){e.preventDefault();show(slides.length-1)}
+  if(e.key.toLowerCase()==='n')document.body.classList.toggle('notes-open')
+});
+addEventListener('hashchange',()=>show(fromHash()));
+show(fromHash());
+</script>
+</body>
+</html>
